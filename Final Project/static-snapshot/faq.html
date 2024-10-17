@@ -1,0 +1,382 @@
+ <!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Texas Gems - Home</title>
+        <!-- Load external CSS styles -->
+        <!--        bootstrap css cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <!--        cdn css links end -->
+        <link rel="stylesheet" href="media/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://db.onlinewebfonts.com/c/eb5b5ee332420add9a40ee988cb6ac37?family=MazzardH-Regular" rel="stylesheet">
+        <!--    bootstrap javascript cdn link start -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <!--    bootstrap javascript cdn link end -->
+        <script type="text/javascript" src="media/scripts/main.js"></script>
+    </head>
+    <body class="dark-mode-toggle">
+        <header class="dark-mode-toggle">
+                <div class="navbtn-dark-mode-toggle">
+                    <h6>Dark/Light</h6>
+                    <a href="javascript:" class="navbtn-dark-mode-toggle dark-mode-toggle" onclick="darkModeToggle();">
+                        <i class="fa fa-lightbulb-o lightbulb" style="font-size:20px">
+                        </i>
+                    </a>                    
+                </div>
+        <div class="header dark-mode-toggle">
+            <h1 class="title-text dark-mode-toggle">Texas Hidden Gems</h1>
+        <nav class="topnav dark-mode-toggle">
+            <ul class="navlist">
+                <li class="navbtn navlink"><a href="home.html">Home</a></li>
+                <li class="navbtn navlink">
+                    <a href="destinations.html">Destinations</a>
+                    <div class="dropdown-content">
+                        <a href="destinations.html#proctorsprings.html">Proctor Springs</a>
+                        <a href="destinations.html#tonkawafalls.html">Tonkawa Falls</a>
+                        <a href="destinations.html#horseshoebay.html">Horseshoe Bay</a>
+                        <a href="destinations.html#krausesprings.html">Krause Springs</a>
+                        <a href="destinations.html#crystalbeach.html">Crystal Beach</a> 
+                    </div>
+                </li>
+                <li class="navbtn navlink"><a href="gallery.html">Gallery</a></li>
+                <li class="navbtn navlink">
+                    <a class="modal-open" class="navbtn navlink" href="#">Pricing</a></li>
+                <li class="navbtn navlink">
+                    <a href="about.html">About</a>
+                    <div class="dropdown-content">
+                        <a href="reviews.html">Reviews</a>
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                </li>
+                <li class="navbtn navlink">
+                <a class="navbtn navlink" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            
+        </nav>
+        <nav class="mobilenav">
+            <div id="mbl-menu-main">
+            <a href="home.html" class="toplinks mbl-links-home">Home</a>
+            <a href="destinations.html" class="toplinks">Destinations</a>
+                <div class="mbl-links">
+                    <a href="destinations.html#proctorsprings.html">Proctor Springs</a>
+                    <a href="destinations.html#tonkawafalls.html">Tonkawa Falls</a>
+                    <a href="destinations.html#horseshoebay.html">Horseshoe Bay</a>
+                    <a href="destinations.html#krausesprings.html">Krause Springs</a>
+                    <a href="destinations.html#crystalbeach.html">Crystal Beach</a>    
+                </div>
+                <a href="gallery.html" class="toplinks">Gallery</a>
+                <a class="toplinks modal-open" href="#">Pricing</a>
+                <a href="about.html" class="toplinks">About</a>
+                <div class="mbl-links-more">
+                    <a href="reviews.html">Reviews</a>
+                    <a href="faq.html">FAQ</a>
+                </div>
+                <a class="toplinks" href="contact.html">Contact Us</a>  
+            </div>
+
+            <!-- look for javascript -- "<a href="javascript:"> -- but do nothing -->
+            <a href="javascript:" class="icon" onclick="togglemblmenu();">
+                <div class="mobilenaviconbars"></div>
+                <div class="mobilenaviconbars"></div>
+                <div class="mobilenaviconbars"></div>
+            </a>
+        </nav>
+        <div class="header-img">
+        </div>
+        </div>
+        </header>
+    <main class="row">
+        <section class="leftcolumn dark-mode-toggle">
+            <div class="card-div dark-mode-toggle">
+                <h2>
+                    FAQ
+                </h2>
+                 <div class="card-div">
+                <h2>Frequently Asked Questions</h2>
+                <ul id="accordion">
+                    <li>
+                        <label id="label" for="day-1">How many tours do you offer?<span>&#x276F <!--spans are inline containers--> 
+                        </span>
+                        </label>
+                        <input type="radio" name="accordion" id="day-1">
+                        <div class="content">
+                        We offer five tours. Proctor Springs, Krause Springs, Crystal Beach, Horseshoe Bay, and Tonkawa Falls
+                        </div>
+                    </li>
+                    <li>
+                        <label id="label" for="day-2">What is included in the cost of the trip?<span>&#x276F <!--spans are inline containers--> 
+                        </span>
+                        </label>
+                        <input type="radio" name="accordion" id="day-2">
+                        <div class="content">
+                        Everything! When we say everything, we mean it! Food, lodging, travel, even an additional souvenier surprise!
+                        </div>
+                    </li>
+                    <li>
+                        <label id="label" for="day-3">Are you allowed to bring pets?<span>&#x276f <!--spans are inline containers--> 
+                        </span>
+                        </label>
+                        <input type="radio" name="accordion" id="day-3">
+                        <div class="content">
+                        We're sorry, in an effort to protect your family's furbabies, we currently do not allow pets on our tours. 
+                        </div>
+                    </li>
+                    <li>
+                        <label id="label" for="day-4">Can children come on a tour?<span>&#x276f <!--spans are inline containers--> 
+                        </span>
+                        </label>
+                        <input type="radio" name="accordion" id="day-4">
+                        <div class="content">
+                        Any children under the age of 18 must be accompanied by a legal guardian to be eligable for a tour.
+                        </div>
+                    </li>
+                        <li>
+                        <label id="label" for="day-5">Is there a waiver?<span>&#x276f <!--spans are inline containers--> 
+                        </span>
+                        </label>
+                        <input type="radio" name="accordion" id="day-5">
+                        <div class="content">
+                        Yes, in order to provide the best experience for our clients, we require a waiver signed in advance. Reach out on our contact page and our consierge will arrange for your form to be delivered either by mail or e-mail.
+                        </div>
+                    </li>
+                    <li>
+                        <label id="label" for="day-6">Can I purchase a tour as a gift?<span>&#x276F <!--spans are inline containers--> 
+                        </span>
+                        </label>
+                        <input type="radio" name="accordion" id="day-6">
+                        <div class="content">
+                        Certainly! Just be sure that the recipient is able to sign a waiver at least one week in advance. 
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </section>
+        <section class="rightcolumn dark-mode-toggle">
+            <div class="card-div dark-mode-toggle">
+                <div class="card-div carousel slide dark-mode-toggle" data-bs-ride="carousel" data-bs-interval="3000">
+                    <h3>
+                        Build Memories That Will Last A Lifetime
+                    </h3>
+                    <br>
+                    <div class="gallery-container carousel-inner">
+                        <a class="img-link carousel-item active"
+                           href="media/images/krausesprings.jpg"
+                           target="_blank">
+                            <img class="gallery-img d-block w-100" alt="krause freshwater springs"
+                            src="media/images/krausesprings.jpg">
+                            </a>
+                        <a class="img-link carousel-item"
+                           href="media/images/horseshoebay.jpg"
+                           target="_blank">
+                            <img class="gallery-img d-block w-100" alt="a massive lake in texas"
+                            src="media/images/horseshoebay.jpg">
+                            </a>
+                        <a class="img-link carousel-item"
+                           href="media/images/crystalbeach.jpg"
+                           target="_blank">
+                            <img class="gallery-img d-block w-100" alt="a clear beach in texas"
+                            src="media/images/crystalbeach.jpg">
+                            </a>
+                        <a class="img-link carousel-item"
+                           href="media/images/proctorsprings.jpg"
+                           target="_blank">
+                            <img class="gallery-img d-block w-100" alt="cameron park's proctor springs"
+                            src="media/images/proctorsprings.jpg">
+                            </a>
+                        <a class="img-link carousel-item"
+                           href="media/images/tonkawafalls.jpg"
+                           target="_blank">
+                            <img class="gallery-img d-block w-100" alt="crafword's tonkawa falls"
+                            src="media/images/tonkawafalls.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-div dark-mode-toggle">
+                <h3>
+                    Are you interested in booking a personalized tour with us? 
+                </h3>
+                <p>
+                Visit our Contact Us page and fill out the form.
+                </p>
+                <p>
+                You may also schedule an appointment on our calendar located on our Contact Us page.                </p>
+                <p>
+                One of our concierges will be in touch shortly to provide a personalized service while they help you book your tour. 
+                </p>
+            </div>
+
+        </section>
+     </main>
+    <footer class="footer dark-mode-toggle">
+        <div class="carddiv dark-mode-toggle">
+            <h3>Interact with us on social media for a chance to win a free vacation!</h3>
+            <p>Facebook | Instagram | Youtube | TikTok</p>
+            <p>© All right Reversed. | 2024 | THG</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </footer>
+    <script>
+        const darkModeToggle = () => {
+            var elements = document.querySelectorAll('.dark-mode-toggle');
+            elements.forEach(element => {
+                element.classList.toggle("dark-mode");
+            });
+        }
+        </script>
+<!--    modal below! -->
+    <section id="info-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span id="modal-close" class="close">&times;</span>
+                <h2>Texas Hidden Gems</h2>
+            </div>
+            <div class="modal-body">
+                <div class="card-div">
+                <section class="table-header">
+                    <h2>Pricing</h2>
+                </section>
+                
+                <section class="table-container">
+                    <table class="crm-table">
+                        <thead>
+                            <th>Event #</th>
+                            <th># of Days</th>
+                            <th>Location</th>
+                            <th>Day Leaving</th>
+                            <th>Price</th>
+                        </thead>
+                    
+                        <tbody>
+                            <tr>
+                                <td>1</td> <!-- <td colspan=2>1</td> to increase column width-->
+                                <td>2</td>
+                                <td>Horseshoe Bay</td>
+                                <td>05/01/2024</td>
+                                <td>$1050.50</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>Tonkawa Falls</td>
+                                <td>06/03/2024</td>
+                                <td>$945.00</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>Proctor Springs</td>
+                                <td>07/07/2024</td>
+                                <td>$705.50</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>4</td>
+                                <td>2</td>
+                                <td>Crystal Beach</td>
+                                <td>08/10/2024</td>
+                                <td>$350.00</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>5</td>
+                                <td>5</td>
+                                <td>Krause Springs</td>
+                                <td>09/11/2024</td>
+                                <td>$1000.00</td>
+                            </tr>                            
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+
+            </div>
+            <div class="modal-footer">
+                <h2></h2>
+            </div>
+        </div>
+    </section>
+<script type="text/javascript">
+    // Get all elements with the class name "modal-open"
+    var openButtons = document.querySelectorAll(".modal-open");
+    var modal = document.getElementById("info-modal");
+    var close = document.getElementById("modal-close");
+
+    // Loop through each "modal-open" button and attach click event listener
+    openButtons.forEach(function(button) {
+        button.onclick = function() {
+            modal.style.display = "block";
+        };
+    });
+
+    close.onclick = function() {
+        modal.style.display = "none";
+    };
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }    
+    };
+</script>
+    <!--    end modal... -->
+
+    <!--    begin js for events-->
+    <script type="text/javascript">
+        function rotateLabelSpan() {
+            const radioButtons = document.querySelectorAll('input[name="accordion"]');
+            
+            radioButtons.forEach(radioButton => {
+                radioButton.addEventListener('change', function() {
+                    const labels = document.querySelectorAll('label span');
+                    
+                    labels.forEach(label => {
+                        if (label.parentElement.getAttribute('for') === this.id) {
+                            label.classList.toggle('rotate', this.checked);
+                        } else {
+                            label.classList.remove('rotate');
+                        }
+                    })
+                })
+            })
+        }
+        
+        rotateLabelSpan();
+    </script>
+    
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            function getParameterByName(name, url) {
+                if(!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+                const results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return "";
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+            
+            const selectedDay = "day-" + getParameterByName("d");
+            
+            const radioBtn = document.getElementById(selectedDay);
+            if (radioBtn) {
+                radioBtn.checked = true;
+                
+                const label = document.querySelector(`label[for="${selectedDay}"]`);
+                const span = label.querySelector("span");
+                if (span) {
+                    span.classList.add("rotate");
+                }
+            }
+        });
+    </script>
+        <!--    end js for events -->   
+</body>
+</html>

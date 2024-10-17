@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200"
+   height="100"
+   viewBox="0 0 52.916668 26.458333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.8008417"
+     inkscape:cx="104.61141"
+     inkscape:cy="32.133197"
+     inkscape:window-width="1920"
+     inkscape:window-height="1047"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="font-size:22.7562px;font-family:Mazzard;-inkscape-font-specification:Mazzard;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:3.27688"
+       d="M 8.0977081,7.3068492 H 2.1355835 V 5.3953283 H 16.107891 V 7.3068492 H 10.145766 V 21.324669 H 8.0977081 Z M 20.545333,21.324669 H 18.497275 V 5.3953283 h 2.048058 v 6.9178847 h 9.443823 V 5.3953283 h 2.070815 V 21.324669 h -2.070815 v -7.099935 h -9.443823 z m 14.450208,-7.96467 q 0,-3.5044553 2.389401,-5.8711002 2.366645,-2.3438887 5.962124,-2.3438887 2.366645,0 4.278166,1.1150539 1.934277,1.0922976 3.026575,3.0265747 L 48.649261,10.037593 Q 47.830038,8.6722212 46.419154,7.8985104 45.031025,7.1247996 43.347066,7.1247996 q -2.639719,0 -4.437459,1.7977399 -1.79774,1.7749835 -1.79774,4.4374595 0,2.662475 1.729472,4.460215 1.729471,1.774984 4.255409,1.774984 2.161839,0 3.845798,-1.342616 1.683959,-1.365372 2.048058,-3.481699 H 42.66438 v -1.911521 h 8.624601 q 0.04551,0.546149 0.04551,0.682686 -0.06827,3.436187 -2.412157,5.734563 -2.366645,2.298376 -5.757319,2.298376 -3.481699,0 -5.825588,-2.343889 -2.343888,-2.343888 -2.343888,-5.871099 z"
+       id="text1"
+       aria-label="THG" />
+  </g>
+</svg>
